@@ -28,9 +28,30 @@ def sum1(a,b):
 
 print (sum1(6, 3))
 
+"1.7"
+def pow(base, exp): 
+    if exp==0:
+        return 1
+    elif base==0 and exp<0:
+        return "enter another base or exp"
+    elif exp<0:
+        res=1
+        count=0
+        while count<abs(exp):
+            res = res*base
+            count+=1
+        return 1/res 
+    elif exp>0:
+        res=1
+        count=0
+        while count<exp:
+            res = res*base
+            count+=1
+        return res
+def abs(n):
+    n if n>=0 else -n
 
-
-
+print (pow(2, -4))
 
 "1.8"
 def cube_root(n):
@@ -52,3 +73,5 @@ def improved(root, target):
     return ((target/(root**2))+(2*root))/3
 
 print (cube_root(27))
+
+"1.9"
