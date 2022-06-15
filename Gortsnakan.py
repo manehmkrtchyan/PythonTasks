@@ -16,9 +16,18 @@ def sum(a, b):
 
 print (sum(3, 6))
 
-"1.7"
-"some new changes"
-"some other changes"
+"1.6"
+def sum1(a,b):
+    sum=0
+    if a>b:
+        a,b = b,a
+    while a<b:
+        sum+=a
+        a+=1
+    return sum
+
+print (sum1(6, 3))
+
 
 
 
