@@ -25,6 +25,11 @@ def sum1(a,b):
 print (sum1(6, 3))
 
 "1.7"
+def abs(n):
+    if n<0:
+      n=-n  
+    return n
+
 def pow(base, exp): 
     if exp==0:
         return 1
@@ -44,8 +49,6 @@ def pow(base, exp):
             res = res*base
             count+=1
         return res
-def abs(n):
-    n if n>=0 else -n
 
 print (pow(2, -4))
 
@@ -58,6 +61,8 @@ def cube_root(n):
 
 def abs(n):
     return n if n>0 else -n
+
+print(abs(-7))
 
 def guess_enough(root, target):
     if abs(root**3-target)<0.000001:
