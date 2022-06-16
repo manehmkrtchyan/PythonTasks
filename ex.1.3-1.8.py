@@ -75,4 +75,3 @@ def improved(root, target):
 
 print (cube_root(27))
 
-"1.9"
