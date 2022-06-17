@@ -10,4 +10,4 @@ def pascal(m, n):
             j+=1
         i+=1
     return res
-print (pascal(7, 4))
+print (pascal(8, 4))
