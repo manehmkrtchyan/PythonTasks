@@ -150,9 +150,19 @@
 #     return sqrt(v ** 2 + 2 * a * d)
 # print(speed(d))
 
-"17"
-h = int(input("enter the height: "))
-b = int(input("enter the base: "))
-def area(h, b): 
-    return b * h / 2
-print(area(h,b))
+# "17"
+# h = int(input("enter the height: "))
+# b = int(input("enter the base: "))
+# def area(h, b): 
+#     return b * h / 2
+# print(area(h,b))
+
+"18"
+s1 = int(input("enter the first side of the triangle: "))
+s2 = int(input("enter the second side of the triangle: "))
+s3 = int(input("enter the third side of the triangle: "))
+def area_kisaparagic(s1, s2, s3):
+    import math
+    s = float((s1 + s2 + s3) / 2)
+    return math.sqrt(s * (s - s1) * (s - s2) * (s - s3))
+print(area_kisaparagic(s1, s2, s3))
