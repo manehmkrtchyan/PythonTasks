@@ -167,11 +167,39 @@
     # return math.sqrt(s * (s - s1) * (s - s2) * (s - s3))
 # print(area_kisaparagic(s1, s2, s3))
 
-"19"
-d = int(input("enter the days: "))
-h = int(input("enter the hours: "))
-m = int(input("enter the minutes: "))
-s = int(input("enter the seconds: "))
-def to_sec(d, h, m, s):
-    return s + m * 60 + h * 3600 + d * 24 * 3600
-print(to_sec(d, h, m, s))
+# "19"
+# d = int(input("enter the days: "))
+# h = int(input("enter the hours: "))
+# m = int(input("enter the minutes: "))
+# s = int(input("enter the seconds: "))
+# def to_sec(d, h, m, s):
+#     return s + m * 60 + h * 3600 + d * 24 * 3600
+# print(to_sec(d, h, m, s))
+
+# "20"
+# import time
+# t = time.localtime()
+# print(time.asctime(t))
+
+# "21"
+# import time
+# month = int(input("Enter the month number here: "))
+# def days(month):
+#     list = [1, 3, 5, 7, 8, 10, 12]
+#     if month in list:
+#         return 31
+#     elif month == 2:
+#         return 28 or 29
+#     return 30
+# print(days(month))
+
+"22"
+letter = input("enter a letter here: ")
+def letter_type(letter):
+    list = ["a", "e", "i", "o", "u"]
+    if letter in list:
+        print("Tary dzaynavor e")
+    elif letter == "y":
+        print("Tary karogh e linel e'v dzaynavor, e'v baghadzayn")
+    else: print("Tary baghadzayn e")
+letter_type(letter)
