@@ -221,3 +221,43 @@ def tarva_exanak(amis):
     else:
         print("ashun")
 tarva_exanak(amis)
+    
+"25"
+def celsius():
+    i = 0
+    while i < 100:
+        print (f"{i} - {i * 33.8}")
+        i += 10
+celsius() 
+
+"26"
+def fizzbuzz():
+    n = 1
+    while n < 100:
+        if n % 3 == 0 and n % 5 == 0:
+            print("fizzbazz")
+            n+=1
+        elif n % 3 == 0:
+            print("fizz")
+            n += 1
+        elif n % 5 == 0:
+            print("bazz")
+            n+=1
+        
+        else:
+            n += 1
+fizzbuzz()
+
+"28"
+tiv = int(input("enter a number"))
+def chisht_bajanarar(tiv):
+    i = 1
+    list = []
+    while i < tiv:
+        if tiv % i == 0:
+            list.append(i)
+            i += 1
+        else: 
+            i += 1
+    return list
+print(list(chisht_bajanarar(tiv)) )
