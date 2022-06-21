@@ -98,4 +98,4 @@ print (f"the sum is {sum(a, b)}, \nthe difference is {dif(a, b)}, \
 \nthe division is {div(a, b)}. \nthe whole part of division is {div_whole(a, b)} \
 \nthe fractional part of division {div_fractional(a, b)}, \
 \nthe base 10 log of the first number is {log(a)}." )
-   
+      
