@@ -110,7 +110,7 @@ print(convert(mpg))
 foot = int(input(f"enter foots: "))
 inch = int(input(f"enter inches: "))
 def height_in_sm(foot, inch):
-    return funt * 12 * 2.54 + inch * 2.54
+    return foot * 12 * 2.54 + inch * 2.54
 print(f"Your height is {height_in_sm(foot, inch)} sm")
 
 "13"
