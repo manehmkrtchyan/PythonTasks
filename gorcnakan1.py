@@ -98,4 +98,19 @@ print (f"the sum is {sum(a, b)}, \nthe difference is {dif(a, b)}, \
 \nthe division is {div(a, b)}. \nthe whole part of division is {div_whole(a, b)} \
 \nthe fractional part of division {div_fractional(a, b)}, \
 \nthe base 10 log of the first number is {log(a)}." )
-      
+
+"11"
+mpg = int(input(f"Input MPG: "))
+def convert(mpg): 
+    l_100km = 378.5 / (mpg * 1.609)
+    return l_100km
+print(convert(mpg))
+
+"12"
+funt = int(input(f"enter funts: "))
+inch = int(input(f"enter inches: "))
+def height_in_sm(funt, inch):
+    return funt * 12 * 2.54 + inch * 2.54
+print(f"Your height is {height_in_sm(funt, inch)} sm")
+
+"13"
