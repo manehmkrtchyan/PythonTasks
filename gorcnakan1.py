@@ -141,11 +141,18 @@
 #    return height * pi * r ** 2 
 # print(f"{volume(height, r):.1f}")
 
-"16"
-d = float(input("Enter the height: "))
-a = 9.8
-v = 0
-def speed(d):
-    from math import sqrt
-    return sqrt(v ** 2 + 2 * a * d)
-print(speed(d))
+# "16"
+# d = float(input("Enter the height: "))
+# a = 9.8
+# v = 0
+# def speed(d):
+#     from math import sqrt
+#     return sqrt(v ** 2 + 2 * a * d)
+# print(speed(d))
+
+"17"
+h = int(input("enter the height: "))
+b = int(input("enter the base: "))
+def area(h, b): 
+    return b * h / 2
+print(area(h,b))
