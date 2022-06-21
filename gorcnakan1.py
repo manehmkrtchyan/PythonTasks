@@ -107,10 +107,29 @@ def convert(mpg):
 print(convert(mpg))
 
 "12"
-funt = int(input(f"enter funts: "))
+foot = int(input(f"enter foots: "))
 inch = int(input(f"enter inches: "))
-def height_in_sm(funt, inch):
+def height_in_sm(foot, inch):
     return funt * 12 * 2.54 + inch * 2.54
-print(f"Your height is {height_in_sm(funt, inch)} sm")
+print(f"Your height is {height_in_sm(foot, inch)} sm")
 
 "13"
+foot = int(input("enter foot")) 
+def feet_convert(foot):
+    print(f"Foot to inches = {12 * foot}") 
+    print(f"Foot to yards = {1/3 * foot}")
+    print(f"Foot to miles = {1/5280 * foot}")
+feet_convert(foot)
+
+"14"
+from cmath import pi
+r = int(input(f"enter the radius of the circle: "))
+def area(r):
+    import math
+    print (f"The area of the circle is {pi * r ** 2}")
+def volume(r):
+    import math
+    print (f"The volume of the ball is {4 / 3 * pi * r ** 3}")
+area(r)
+volume(r)
+
