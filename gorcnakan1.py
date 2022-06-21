@@ -157,12 +157,21 @@
 #     return b * h / 2
 # print(area(h,b))
 
-"18"
-s1 = int(input("enter the first side of the triangle: "))
-s2 = int(input("enter the second side of the triangle: "))
-s3 = int(input("enter the third side of the triangle: "))
-def area_kisaparagic(s1, s2, s3):
-    import math
-    s = float((s1 + s2 + s3) / 2)
-    return math.sqrt(s * (s - s1) * (s - s2) * (s - s3))
-print(area_kisaparagic(s1, s2, s3))
+# "18"
+# s1 = int(input("enter the first side of the triangle: "))
+# s2 = int(input("enter the second side of the triangle: "))
+# s3 = int(input("enter the third side of the triangle: "))
+# def area_kisaparagic(s1, s2, s3):
+    # import math
+    # s = float((s1 + s2 + s3) / 2)
+    # return math.sqrt(s * (s - s1) * (s - s2) * (s - s3))
+# print(area_kisaparagic(s1, s2, s3))
+
+"19"
+d = int(input("enter the days: "))
+h = int(input("enter the hours: "))
+m = int(input("enter the minutes: "))
+s = int(input("enter the seconds: "))
+def to_sec(d, h, m, s):
+    return s + m * 60 + h * 3600 + d * 24 * 3600
+print(to_sec(d, h, m, s))
