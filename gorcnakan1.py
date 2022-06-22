@@ -249,6 +249,7 @@ def fizzbuzz():
 fizzbuzz()
 
 "28"
+from operator import truediv
 tiv = int(input("enter a number"))
 def chisht_bajanarar(tiv):
     i = 1
