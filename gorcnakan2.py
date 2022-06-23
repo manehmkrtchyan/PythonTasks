@@ -39,14 +39,15 @@ while ele != "":
     ele = input("enter a number: ")
 lst = [int(x) for x in lst]
 
-print (sum(lst) / len(lst))
 mean = sum(lst) / len(lst)
-i = 0
-j = 0
+print (mean)
 less_than_mean = []
-while lst[i] <= mean:
-    less_than_mean.append(lst[i])
-    i += 1
+for ele in lst:
+    if ele <= mean:
+        less_than_mean.append(ele)
 print(less_than_mean)
-more_than_mean = lst.remove(less_than_mean)
+more_than_mean = []
+for ele in lst:
+    if ele > mean:
+        more_than_mean.append(ele)
 print(more_than_mean)
