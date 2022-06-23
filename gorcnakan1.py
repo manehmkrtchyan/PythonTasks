@@ -6,7 +6,7 @@ name = input("input your name ")
 adress = input("input your adress ")
 info(name, adress)
 
-"2"
+"2"  
 name = input("Enter your name here ")
 def hello(name):
     print(f"Hello dear {name}!")
@@ -248,7 +248,7 @@ def fizzbuzz():
             n += 1
 fizzbuzz()
 
-"28"
+"27"
 from operator import truediv
 tiv = int(input("enter a number"))
 def chisht_bajanarar(tiv):
@@ -262,3 +262,4 @@ def chisht_bajanarar(tiv):
             i += 1
     return list
 print(list(chisht_bajanarar(tiv)) )
+

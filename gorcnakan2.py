@@ -50,4 +50,4 @@ more_than_mean = []
 for ele in lst:
     if ele > mean:
         more_than_mean.append(ele)
-print(more_than_mean)
+print(more_than_mean)  
