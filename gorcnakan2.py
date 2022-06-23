@@ -51,3 +51,14 @@ for ele in lst:
     if ele > mean:
         more_than_mean.append(ele)
 print(more_than_mean)  
+
+"6"
+from random import sample
+numbers = []
+i = 1
+while i < 50:
+    numbers.append(i)
+    i += 1
+numbers = [int(x) for x in numbers]
+ticket = sample(numbers, 6)
+print(sorted(ticket))
