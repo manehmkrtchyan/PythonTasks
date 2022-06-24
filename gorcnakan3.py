@@ -36,3 +36,13 @@
 #     if lst[i] % 2 == 0:
 #         print(i)
     
+# "5"
+# word  = input("enter the word: ")
+# i = len(word)
+# # while i > 0:
+# #     i -= 1
+# #     print (word[i], end="")
+
+# for i in range(len(word)-1, -1, -1):
+#     print (word[i] , end="")
+
