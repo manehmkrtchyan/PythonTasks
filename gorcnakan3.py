@@ -62,3 +62,19 @@ def smallest_prime(n):
         a += 1
     return a
 print(smallest_prime(n))
+
+"7"
+
+data = []
+ele = (input("enter a number: "))
+while ele != "":
+    data.append(ele)
+    ele = (input("enter a number: "))
+data = [int(x) for x in data]
+
+def get_median(data):
+    if len(data) % 2 == 0:
+        return (data[len(data)//2] + data[(len(data)//2 - 1)]) / 2
+    else:
+        return data[len(data)//2]
+print (get_median(data))
