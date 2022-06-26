@@ -46,3 +46,17 @@
 # for i in range(len(word)-1, -1, -1):
 #     print (word[i] , end="")
 
+"6"
+def bajanarar(a):
+    return [i for i in range(1, a) if a % i == 0]
+print(bajanarar(6))
+
+def is_prime(a):
+    if bajanarar(a) == [1]:
+        return True
+
+def smallest_prime(n):
+    pass
+print(is_prime(7))
+
+
