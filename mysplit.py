@@ -14,5 +14,5 @@ def mysplit(a):
     if ele != a:
         lst.append(ele)
     print(lst)
-mysplit(".")
+mysplit(".") 
 
