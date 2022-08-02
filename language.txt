@@ -1,0 +1,5 @@
+VAR a = 5
+PRINT hello world 
+IF 5>2 PRINT true
+IF 5>2 VAR b = 6
+PRINT how are you
