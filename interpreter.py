@@ -41,7 +41,7 @@ for line in program_lines:
         raise SyntaxError("the firs word must be a keywoard.")   
     
     
-    
+     
     # if splitted[0] == 'IF':
     #     cond = splitted[1]
     #     do = splitted[2::]
