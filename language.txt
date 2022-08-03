@@ -1,8 +1,7 @@
 VAR a = 5
 PRINT a
-VAR b = 7
-PRINT b
-PRINT hello world 
-PRINT how are you
-VAR c = 10
-PRINT c
+PRINT hello
+PRINT how are you 
+IF 5>2 PRINT done
+IF 6>3 VAR k = 4
+PRINT k
