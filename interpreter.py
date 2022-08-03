@@ -38,7 +38,7 @@ for line in program_lines:
             dict = {var: value}
 
     else:
-        raise SyntaxError("the firs word must be a keywoard.")   
+        raise SyntaxError("The firs word of the line must be a keywoard.")   
     
     
      
