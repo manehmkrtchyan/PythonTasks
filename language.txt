@@ -1,5 +1,8 @@
 VAR a = 5
+PRINT a
+VAR b = 7
+PRINT b
 PRINT hello world 
-IF 5>2 PRINT true
-IF 5>2 VAR b = 6
 PRINT how are you
+VAR c = 10
+PRINT c
