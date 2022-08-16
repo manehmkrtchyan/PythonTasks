@@ -113,4 +113,59 @@ def prime_factors(n):
     return lst
 print(prime_factors(600851475143))        
 
+'9'
+def is_palindrome(num):
+    num = str(num)
+    return True if num == num[::-1] else False
+def prod_of_3digit_nums():
+    lst = []
+    for i in range(999, 99, -1):
+        for j in range(i, 99, -1):
+            x = int(i * j)
+            if is_palindrome(x):
+                lst.append(x)
+    return max(lst)
+print(prod_of_3digit_nums())
+
+'10'
+num = 20
+found = 0
+i = 1
+while not found:
+    if num % i == 0:
+        i += 1
+        print(i)
+    else: 
+        num, i = num + 1, 1
+        print(num)
+    if i == 21:
+        found = 1
+print(num)
+
+'11'
+def square_of_sum():
+    sum = 0
+    for i in range(1, 101):
+        sum += i
+    return sum ** 2
+def sum_of_squares():
+    sum = 0
+    for i in range(1, 101):
+        sum += i ** 2
+    return sum
+print(square_of_sum() - sum_of_squares())
+
+'12'
+n, c = 1, 0
+while(c < 10001):
+    n += 1
+    for i in range(2, n + 1):
+        if(n % i == 0):
+            break
+    if(i == n):
+        c = c + 1
+print(n)
+            
+
+
 
