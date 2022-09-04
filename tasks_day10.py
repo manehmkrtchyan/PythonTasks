@@ -21,7 +21,7 @@ nums2 = [1, 1, 3, 5, 7, 7, 7, 9]
 def merge(lst1, lst2):
     res = []
     i, j = 0, 0
-    while i < len(nums1) and j < len(lst2):
+    while i < len(lst1) and j < len(lst2):
         if lst1[i] < lst2[j]:
             res.append(lst1[i])
             i += 1
