@@ -7,7 +7,7 @@ import matplotlib.gridspec as gridspec
 
 file_path = f'/Users/mane/Downloads/mtcars.csv.xls'
 
-df = pd.DataFrame()  # Creating an empty DataFrame
+df = pd.DataFrame()  
 
 print(pd.read_csv(file_path))
 
