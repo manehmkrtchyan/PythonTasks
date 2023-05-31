@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import seaborn 
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
+import matplotlib.gridspec as gridspec 
 
 
 file_path = f'/Users/mane/Downloads/mtcars.csv.xls'
